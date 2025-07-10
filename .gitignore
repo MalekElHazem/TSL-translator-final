@@ -1,0 +1,161 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Debug and temporary files
+server_side_debug_frames/
+websocket_debug_frames/
+*.log
+*.tmp
+
+# Large data files and samples
+data/
+samples/
+report_samples/
+
+# Training and evaluation files (uncomment to ignore during deployment)
+# train.py
+# evaluate.py
+# predict_video.py
+# test.py
+# test_client.py
+# report_samples.py
+# export_onnx.py
+
+# Model checkpoints (except the best model)
+saved_models/*.pth
+!saved_models/best_model.pth
+!saved_models/class_names.txt
+
+# Docker
+.docker/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Expo (React Native)
+.expo/
+expo-env.d.ts
+.expo-shared/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js (for mobile components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Jupyter Notebooks (if any)
+.ipynb_checkpoints/
+*.ipynb
+
+# PyTorch and ML specific
+*.onnx
+*.tflite
+*.h5
+wandb/
+mlruns/
+.neptune/
+
+# Video and image files (for testing)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+!README_images/
+!docs/images/
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+*.aac
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache directories
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# FastAPI/Uvicorn specific
+.uvicorn.pid
+
+# Windows specific
+*.lnk
+desktop.ini
+
+# macOS specific
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
